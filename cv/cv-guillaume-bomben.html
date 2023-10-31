@@ -7,6 +7,10 @@
         <meta name="author" content="BOMBEN guillaume">
         <meta name="description" content="CV de BOMBEN Guillaume">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" type="text/css" href="cv-guillaume-bomben.css"/>
 
         <title>CV BOMBEN Guillaume</title>
@@ -14,47 +18,57 @@
     <body>
         <header>
             <h1>CV Guillaume BOMBEN</h1>
+            <section id="sommaire">
+                <a href="#info1">   Info perso  </a>
+                <a href="#info2">   Objectif perso  </a>
+                <a href="#info3">   Expérience pro  </a>
+                <a href="#info4">   Formation   </a>
+                <a href="#info5">   Compétence   </a>
+                <a href="#info6">   Lien Utiles   </a>
+            </section>
         </header>
 
         <main>
             <!--info perso-->
-            <section>
+            <section class="info" id="info1">
                 <h2>info perso</h2>
                 <p>22 ans <br> Marseille <br> guillaume.bomben@laplateforme.io</p>
             </section>
 
             <!--ojectif perso-->
-            <section>
-                <h2>objectif perso :</h2>
+            <section class="info" id="info2">
+                <h2>objectif perso</h2>
                 <p>Devenir dév Logiciel</p>
             </section>
 
             <!--expérience pro-->
-            <section>
+            <section class="info" id="info3">
                 <h2>Expérience</h2>
                 <p>éxpérience 1: pas d'expérience <br> employeur : moi même  <br> date : naissance à aujourd'huis</p>
                 <p>expérience 2: no Expérience <br> employer : me  <br> date : born to today</p>
             </section>
 
             <!--Formation-->
-            <section>
+            <section class="info" id="info4">
                 <h2>Formation</h2>
                 <p>Bac S , lycée St Exupéry / juillet 2020 <br>La Plateforme ,septembre 2023 to Août 2026 </p>
             </section>
 
             <!--Compétence-->
-            <section>
-                <h2>Mes Compétence</h2>
+            <section id="info5">
+                <h2 class="info">Mes Compétence</h2>
                 <p> 
-                    <img src="Image/Cisco.png"  alt="Logo Cisco" class="img"> 
+                    <img src="Image/Cisco.png"  alt="Logo Cisco" class="img2"> 
                     <img src="Image/Debian.png" alt="Logo Debian" class="img"> 
-                    <img src="Image/vmware.png" alt="Logo WMware" class="img"> 
+                    <img src="Image/vmware.png" alt="Logo WMware" class="img">
+                    <img src="Image/html-css.png" alt="Logo HTML CSS" class="img2">
                 </p>
             </section>
         </main>
 
-        <footer>
-            <a href="https://github.com/guillaume-bomben"> <img src="Image/Github.png" class="img"></a>
+        <footer id="info6">
+            <h2 class="info">Lien Utiles</h2>
+            <a href="https://github.com/guillaume-bomben"> <img src="Image/Github.png" class="img2"></a>
             <a href="https://drive.google.com/file/d/1dyGq0pYONVYlTZgnyZ4e9_cN20WOWCA2/view?usp=sharing" download="CV-runtrackt.pdf"> <img src="Image/PDF.png" class="img"> </a>
         </footer>
     </body>
