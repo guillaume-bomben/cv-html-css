@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background-image:url(Image/sky.jpg);
+    color: aliceblue;
+}
+
+.img{
+    width: 20%;
+}
