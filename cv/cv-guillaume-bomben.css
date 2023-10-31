@@ -1,8 +1,10 @@
 body {
     text-align: center;
     background-image:url(Image/sky.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     text-decoration: none;
-    color:cornflowerblue;
+    color:goldenrod;
     font-family: "Press Start 2P" , "sans-serif";
     font-size: 10px;
     line-height: 0.4cm;
@@ -16,7 +18,7 @@ body {
     width: 150px;
 }
 
-.info{
+.info,.h2{
     background: rgba(19, 136, 142, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -24,6 +26,16 @@ body {
     width: 400px;
     margin: auto;
     margin-bottom: 10px;
+}
+
+.h2{
+    height: 30px;
+}
+
+#text{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 header{
